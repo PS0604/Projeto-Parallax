@@ -61,7 +61,6 @@ section.imagens {
 
 section#img1 {
     background-image: url(../imagens/background001.jpg);
-    background-position: center bottom;
     background-attachment: fixed;
     background-size: cover;
     background-size: cover;
@@ -71,14 +70,14 @@ section.imagens > p {
     padding: 10px;
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.521);
     background-color: rgba(0, 0, 0, 0.507);
-    border-radius: 10px;
+    border-radius: 20px;
     width: 300px;
 }
 
 section#img2 {
     background-image: url(../imagens/background002.jpg);
-    background-position: center center;
     background-attachment: fixed;
+    background-position: center center;
     background-size: cover;
 }
 
