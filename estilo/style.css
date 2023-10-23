@@ -10,11 +10,10 @@
 * {
     margin: 0px;
     padding: 0px;
-    font-size: 3vw;
 }
 
 header {
-    background-color: black;
+    background-color: rgb(61, 136, 65);
     padding: 30px;
     font-variant: small-caps;
     border-radius: 0px 0px 20px 20px;
@@ -22,16 +21,20 @@ header {
 
 header {
     text-align: center;
+    font-size: 3em;
 }
 
 header h1{
     font-family: var(--fonte-destaque);
-    font-size: 10vw;
+    font-size: 5vw;
     color: white;
+    text-shadow: 2px 2px 2px black;
 }
 
 header p {
-    color: white;
+    color: rgba(255, 255, 255, 0.822);
+    font-weight: lighter;
+    font-size: 3vw;
 }
 
 header p > a {
@@ -45,7 +48,7 @@ header p > a:hover {
 
 section {
     padding: 30px;
-    font-size: 2vh;
+    font-size: 2em;
     font-family: var(--fonte-letra);
 }
 
@@ -87,15 +90,16 @@ footer > p {
     text-align: center;
     padding: 10px;
     color: white;
-    font-size: 2vw;
+    font-size: 1em;
 }    
 
 footer p > a {
     color: white;
-    font-size: 2vw;
+    font-size: 1em;
     text-decoration: none;
 }
 
 footer p > a:hover {
     text-decoration: underline;
+    color: rgb(61, 136, 65);
 }
